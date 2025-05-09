@@ -1,8 +1,11 @@
 <!doctype html>
 <html>
 <head>
+	<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <meta charset="utf-8">
-<title>print</title>
+<title>Print</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
   <body>
@@ -31,12 +34,30 @@
       </ul>
       <a href="contact.html" class="btn btn__large">Contact</a>
     </nav>
-    <header class="section__container header__container" id="home">
-      <div class="header__image">
-        <img src="imgs/about.jpg" alt="header" />
-      </div>
-      <div class="header__content">
-        <div>
+
+	<section class="section__container text-center">
+  <h2 class="section__header">Featured Print Projects</h2>
+  <div class="row justify-content-center">
+    <!-- Project 1 -->
+    <div class="col-md-4 mb-5">
+      <img src="imgs/duotone_poster.jpg" class="mx-auto d-block rounded" alt="Project 1"
+           style="width: 250px; height: 180px; object-fit: cover; border-radius: 1rem;">
+      <p class="section__description mt-3">This Project was to create a duotone poster. For this project, I explored the photo editing technique Duotone, which uses overlapping of images and RGB values, and the absence of such values to create an interesting composition. I merged an image of a woman with a bustling city street, forcing your eye to focus on the woman, especially her eyes. This was brought further...</p>
+      <button class="center_btn">Read More</button>
+    </div>
+    <!-- Project 2 -->
+    <div class="col-md-4 mb-5">
+      <img src="imgs/feature_article.png" class="mx-auto d-block rounded" alt="Project 2"
+           style="width: 250px; height: 180px; object-fit: cover; border-radius: 1rem;">
+      <p class="section__description mt-3">
+This Project was to create a feature article multi-spread layout. This project asked that we create a 3 spread Feature Article Layout for the topic of your choice. This was meant to test our content management skills and give us a better grasp of layout design. I set out to create an approachable and interesting design using geometric shapes and...
+</p>
+      <button class="center_btn">Read More</button>
+    </div>
+  </div>
+</section>
+
+
 
 <body>
 	 <footer class="footer">
@@ -66,5 +87,9 @@
   hamburger.addEventListener('click', () => {
   });
 </script>
+	<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+
