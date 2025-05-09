@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
 <head>
+	<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <meta charset="utf-8">
 <title>web</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
@@ -31,12 +34,30 @@
       </ul>
       <a href="contact.html" class="btn btn__large">Contact</a>
     </nav>
-    <header class="section__container header__container" id="home">
-      <div class="header__image">
-        <img src="imgs/about.jpg" alt="header" />
-      </div>
-      <div class="header__content">
-        <div>
+
+	<section class="section__container text-center">
+  <h2 class="section__header">Featured Web/Digital Projects</h2>
+  <div class="row justify-content-center">
+    <!-- Project 1 -->
+    <div class="col-md-4 mb-5">
+      <img src="imgs/Social2.jpg" class="mx-auto d-block rounded" alt="Project 1"
+           style="width: 250px; height: 180px; object-fit: cover; border-radius: 1rem;">
+      <p class="section__description mt-3">This Project was for the The NAMI (National Alliance on Mental Illness). I was tasked with Coming up with a creative concept that utilizes the same overarching theme and aesthetics across mediums. The goal was to increase interaction with their site, support groups and educate people on mental health. To appeal to their audience of mainly men, women, members of the lgbt community...</p>
+      <button class="center_btn">Read More</button>
+    </div>
+    <!-- Project 2 -->
+    <div class="col-md-4 mb-5">
+      <img src="imgs/Web Banner Mockup.jpg" class="mx-auto d-block rounded" alt="Project 2"
+           style="width: 250px; height: 180px; object-fit: cover; border-radius: 1rem;">
+      <p class="section__description mt-3">
+This Project was for the Pikes Peak State College Dental Assisting Program. I created a web banner and tri-fold brochure for the PPSC Dental Assisting Program to advertise to potential students. Since our audience is potential students I wanted to get rid of some of the stigma the dental world has and make it more approachable and…
+</p>
+      <button class="center_btn">Read More</button>
+    </div>
+    </div>
+  </div>
+</section>
+
 
 <body>
 	 <footer class="footer">
@@ -66,5 +87,8 @@
   hamburger.addEventListener('click', () => {
   });
 </script>
+	<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
