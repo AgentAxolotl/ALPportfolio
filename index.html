@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Aimee Peterson</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .fade-in {
+        animation: fadeSlideIn 1.5s ease-out forwards;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 6rem;
+          line-height: 6rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imgs/logo variations-03.png" alt="AP Designs logo" height="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="web-digital.html">Web/Digital</a></li>
+                <li><a class="dropdown-item" href="branding.html">Branding</a></li>
+                <li><a class="dropdown-item" href="print.html">Print</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item">
+              <a class="btn btn-success ms-2" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="container py-5 mt-5" id="home">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start fade-in">
+          <h1>Colorful <br />Creativity <br> Starts Here!</h1>
+          <p class="section__description">
+            With a passion for design, a playful spirit, and a love of all things colorful, I bring energy, creativity, and heart to every project I take on! I strive to make the design process as fun, easy, collaborative, and thoughtful as possible to create your design as truly as you see it. Whether you’re building a brand, launching a product, or looking to create something digital, I'm here to bring your vision to life!
+          </p>
+          <a href="contact.html" class="btn btn-success">Hire Me</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="imgs/header.jpg" alt="header" class="img-fluid rounded-circle" />
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="container py-5" id="about">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center">
+          <div class="position-relative">
+            <img src="imgs/about.jpg" alt="about" class="img-fluid rounded-circle" />
+			   <img src="imgs/bg.png" alt="bg" class="about__bg-1" />
+        <img src="imgs/bg.png" alt="bg" class="about__bg-2" />
+          </div>
+        </div>
+        <div class="col-md-6 fade-in">
+          <h2 class="section__header">Hi! I'm Aimee</h2>
+          <p class="section__description">
+            You may be wondering, who am I? What do I do, and why do I do it? If those questions and others have popped into your head, think about taking a peek at my About page! There you'll learn more about me, discover what drives my passion for design, and even why I got into this industry to begin with.
+          </p>
+          <a href="about.html" class="btn btn-success">About Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="container py-5" id="service">
+      <h2 class="h2alt text-center">My Areas of Expertise</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="p-4 shadow rounded service__card fade-in">
+            <h4>Print</h4>
+            <p>Here you'll discover the various print projects I have done, and learn a bit about my creative process on each.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 shadow rounded service__card fade-in">
+            <h4>Branding</h4>
+            <p>Here you'll discover the various branding projects I have done, and learn a bit about my creative process on each.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 shadow rounded service__card fade-in">
+            <h4>Web/Digital</h4>
+            <p>Here you'll discover the various web and digital projects I have done, and learn a bit about my creative process on each.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="container py-5" id="portfolio">
+      <h2 class="h2altgallery text-center">My Gallery</h2>
+      <p class="section__description text-center">
+        Wanting to see my design skills in action? Feel free to browse my gallery of current and past projects!
+      </p>
+      <div class="row g-4">
+        <div class="col-sm-6 col-md-4"><img src="imgs/duotone_poster.jpg" alt="portfolio" class="img-fluid rounded shadow"></div>
+        <div class="col-sm-6 col-md-4"><img src="imgs/feature_article.png" alt="portfolio" class="img-fluid rounded shadow"></div>
+        <div class="col-sm-6 col-md-4"><img src="imgs/Logo designs_FC Stacked.png" alt="portfolio" class="img-fluid rounded shadow"></div>
+        <div class="col-sm-6 col-md-4"><img src="imgs/portrait.png" alt="portfolio" class="img-fluid rounded shadow"></div>
+        <div class="col-sm-6 col-md-4"><img src="imgs/Social2.jpg" alt="portfolio" class="img-fluid rounded shadow"></div>
+        <div class="col-sm-6 col-md-4"><img src="imgs/Web Banner Mockup.jpg" alt="portfolio" class="img-fluid rounded shadow"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container py-5 text-center" id="contact">
+      <h2 class="section__header">Let's Stay Connected!</h2>
+      <p class="section__description">
+        Want to follow along with my design journey? Stay connected and build a community with me! Feel free to reach out anytime with ideas, questions, business inquiries, or just to say hi!
+      </p>
+      <a href="contact.html" class="btn btn-success mt-3">Contact Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light py-3 text-center">
+      Copyright © 2025 Aimee Peterson. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
